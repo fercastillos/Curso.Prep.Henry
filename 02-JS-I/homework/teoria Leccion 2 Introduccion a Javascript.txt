@@ -1,0 +1,49 @@
+ Variables:
+Es una forma de almacenar algo para ser utilizado en el futuro. 
+Es como una caja donde colocas objetos diferentes y luego la etiquetas con un nombre esto te permite en el futuro poder llamarla y encontrarla.
+Puedo cambiarle el nombre a esa caja todas la veces que quiera.
+Para crearla utilizo var seguido de un espacio y el nombre de la misma.
+Para asignarle un valor utilizo =
+var nombre = 'Fer';
+
+Strings:
+Es un tipo de clasificacion que se utliza para poder definir datos.
+Cualquier texto que se encuentre entre comillas simples o dobles.
+No necesariamiente tiene que ser una palabra que tenga un significado.
+'asdadsads', 'Pepe' , "Carro".
+
+
+Funciones (argumentos, `return`)
+Las funciones son cajas mas grande en donde podemos guardar diferentes pequeñas cajas (var) para que realicen luego una tarea especifica
+function miFuncion() {}
+Los Argumentos son las pequeñas cajas que podemos agregar a las Funciones
+function logHola(nombre) {
+    console.log('Hola, ' + nombre);
+}
+
+logHola('Martin');
+Return se refiere a una declaracion que utilizamos dentro de esta caja grande como boton de escaque para poder salir y mostrar lo que se encuentra a dentro luego de que a realizado el proceso que se le ha solicitado.
+Mostrandonos en la pantalla la devolucion de lo que nosotros hemos solicitado.
+function sumarDosNumeros(a, b) {
+  var suma = a + b;
+  return suma;
+}
+
+sumarDosNumeros(1, 5); // 6
+
+Declaraciones `if`
+Esta declaracion se utiliza en nuestra funcion (caja grande) para poder controlar si lo que nosotros comocamo ahi dentro es verdadero o es falso.
+Podemos decir que para controlar una operacion 'es verdad que Lucas tiene 12 años' esa afirmacion la puedo verificar con simbolos
+Lucas = 12
+function Afirmacion(Lucas) {
+    if (Lucas == 12) {
+        return true;
+    }
+
+    return false;
+}
+
+Afirmacion(12); // true
+ 
+Valores booleanos (`true`, `false`)
+Son tipos de datos(pequeñas cajas) basicamente significa que tiene dos posibles resultado que sea verdadero o falso
